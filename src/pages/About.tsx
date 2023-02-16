@@ -1,20 +1,21 @@
-import React from 'react'
+import { ReactElement } from "react";
 
 type Props = {
-    title: string,
-    description: string,
-}
+  title: string;
+  description: string;
+};
 
-// use both css classes ans tailwind css as styles
-const About = (props: Props) => {
+// use both css classes and tailwind css as styles
+// returning only an element
+const About = ({ title, description }: Props): ReactElement => {
   return (
     <>
-        <section>
-            <h1>{props.title}</h1>
-            <p>{props.description}</p>
-        </section>
+      <section>
+        <h1>{title}</h1>
+        <p>{description}</p>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
