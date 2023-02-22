@@ -1,0 +1,20 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 4,
+  "editor.cursorStyle": "line-thin",
+  "editor.wordWrap": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoIndent": "full",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.letterSpacing": 2,
+  "editor.lineHeight": 2,
+  "editor.padding.top": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 15,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 3,
+  "better-comments.highlightPlainText": true
+}
