@@ -1,8 +1,11 @@
 import Albums from "./pages/Albums";
 
-function App() {
+function App(): JSX.Element {
   return (
-    <Albums>Hello Worlds</Albums>
+    <>
+      <h1 className="text-3xl font-bold underline">Hello World</h1>
+      <Albums>Hello Worlds</Albums>
+    </>
   );
 }
 
