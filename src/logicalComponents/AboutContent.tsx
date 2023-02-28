@@ -1,33 +1,25 @@
-import { ReactElement, ReactNode } from "react";
+import { ReactElement } from "react";
 
 type Props = {
-  abouts: ReactNode;
-  title: string;
-  description: string;
-  favoriteTrackTitle: string;
-  favouriteTrackDescription: string;
+  abouts: {
+    id: number;
+    title: string;
+    description: string;
+    favoriteTrackTitle: string;
+    favouriteTrackDescription: string;
+  }
 };
 
 // use both css classes and tailwind css as styles
 // returning only an element
-const AboutContent = ({
-  abouts,
-  title,
-  description,
-  favoriteTrackTitle,
-  favouriteTrackDescription,
-}: Props): ReactElement => {
+const AboutContent = ({ abouts }: Props): ReactElement => {
   return (
     <>
       <section>
-        {abouts.map((about: string) => (
-          <div key={about.id}>
-            <h1>{about.title}</h1>
-            <p>{about.description}</p>
-            <p>{about.favoriteTrackTitle}</p>
-            <p>{about.favouriteTrackDescription}</p>
-          </div>
-        ))}
+        <h2>{abouts.title}</h2>
+        <p>{abouts.description}</p>
+        <p>{abouts.favoriteTrackTitle}</p>
+        <p>{abouts.favouriteTrackDescription}</p>
       </section>
     </>
   );
