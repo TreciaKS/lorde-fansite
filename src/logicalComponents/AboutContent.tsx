@@ -1,6 +1,7 @@
-import { ReactElement } from "react";
+import { ReactElement, ReactNode } from "react";
 
 type Props = {
+  abouts: ReactNode;
   title: string;
   description: string;
   favoriteTrackTitle: string;
@@ -10,6 +11,7 @@ type Props = {
 // use both css classes and tailwind css as styles
 // returning only an element
 const AboutContent = ({
+  abouts,
   title,
   description,
   favoriteTrackTitle,
@@ -18,10 +20,14 @@ const AboutContent = ({
   return (
     <>
       <section>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <p>{favoriteTrackTitle}</p>
-        <p>{favouriteTrackDescription}</p>
+        {abouts.map((about: string) => (
+          <div key={about.id}>
+            <h1>{about.title}</h1>
+            <p>{about.description}</p>
+            <p>{about.favoriteTrackTitle}</p>
+            <p>{about.favouriteTrackDescription}</p>
+          </div>
+        ))}
       </section>
     </>
   );

@@ -1,25 +1,17 @@
-import { ReactElement } from "react";
+import * as React from 'react';
+import { useState } from 'react';
+import AboutContent from '../logicalComponents/AboutContent'
+import aboutData from "../data/about.json";
 
-type Props = {
-  title: string;
-  description: string;
-  favoriteTrackTitle: string;
-  favouriteTrackDescription: string;
-};
 
-// use both css classes and tailwind css as styles
-// returning only an element
-const About = ({ title, description , favoriteTrackTitle , favouriteTrackDescription}: Props): ReactElement => {
+const About = () => {
+  const [abouts, setAbouts] = useState(aboutData);
+
   return (
-    <>
-      <section>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <p>{favoriteTrackTitle}</p>
-        <p>{favouriteTrackDescription}</p>
-      </section>
-    </>
-  );
-};
+    <div>
+      FIXME:<AboutContent abouts={aboutData} title='Hello' description='thus' favoriteTrackTitle='this' favouriteTrackDescription='this also'/>
+    </div>
+  )
+}
 
-export default About;
+export default About
