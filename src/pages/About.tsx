@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <div>
-      FIXME:<AboutContent abouts={aboutData} title='Hello' description='thus' favoriteTrackTitle='this' favouriteTrackDescription='this also'/>
+      FIXME:<AboutContent abouts={abouts} />
     </div>
   )
 }
