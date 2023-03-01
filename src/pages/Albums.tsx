@@ -1,12 +1,10 @@
-import React, { ReactNode } from 'react'
+import React from 'react'
 
-type AlbumsProps = {
-    children: ReactNode
-}
+type Props = {}
 
-const Albums = ({children}: AlbumsProps) => {
+const Albums = (props: Props) => {
   return (
-    <div>{children}</div>
+    <div>Albums</div>
   )
 }
 
