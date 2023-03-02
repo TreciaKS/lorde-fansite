@@ -1,10 +1,14 @@
-import React from 'react'
+import { useState } from 'react';
+import AlbumsData from '../data/albums.json'
+import AlbumsContent from '../logicalComponents/AlbumsContent';
 
-type Props = {}
+const Albums = (): JSX.Element => {
+  const [albums, setAlbums] = useState(AlbumsData);
 
-const Albums = (props: Props) => {
   return (
-    <div>Albums</div>
+    <>
+      <AlbumsContent albums={albums} />
+    </>
   )
 }
 
