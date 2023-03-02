@@ -14,7 +14,6 @@ const [faqs, setFaqs] = useState(FaqData);
           </div>
         ))}
       </div>
-      )
     </>
   );
 };

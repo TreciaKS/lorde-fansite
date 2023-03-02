@@ -1,3 +1,5 @@
+import Faq from "../component/Faq"
+
 type Props ={
   biography: {
     "id": number;
@@ -19,6 +21,7 @@ const BiographyContent = ({ biography }: Props): JSX.Element => {
             <p>{biography.lordeTradeMarks.join(", ")}</p>
             <img src={biography.melodramaImgURL} alt="melodrama" />
             <img src={biography.monarchImgURL} alt="monarch" />
+            <Faq />
           </div>
     </>
   );
