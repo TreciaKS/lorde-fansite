@@ -9,7 +9,8 @@ module.exports = {
       "pure-white": "#E8E9E9",
       "pure-black": "#171818",
       "solar-brown": "#89450E",
-      "solar-coffee": "#61493A"
+      "solar-coffee": "#61493A",
+      "pure-grey": "#A6A7A6",
     },
     extend: {},
   },
