@@ -1,11 +1,17 @@
 import React from 'react'
 
-type Props = {}
+interface BiographyContents {
+  name: string;
+  colour: string;
+}
 
-const BiographyContent = (props: Props) => {
+const BiographyContent: React.FC<BiographyContents> = ({name, colour}) => {
   return (
-    <div>BiographyContent</div>
-  )
+    <>
+      <div>{name}</div>
+      <div>{colour}</div>
+    </>
+  );
 }
 
 export default BiographyContent
