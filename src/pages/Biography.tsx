@@ -1,10 +1,15 @@
-import React from 'react'
+import { useState } from 'react';
+import BioData from '../data/biography.json';
+import BiographyContent from '../logicalComponents/BiographyContent';
 
-type Props = {}
+const Biography = (): JSX.Element => {
+const [biography, setBiography] = useState(BioData);
 
-const Biography = (props: Props) => {
   return (
-    <div>Biography</div>
+    <>
+    <h1>Hello</h1>
+      <BiographyContent biography={biography} />
+    </>
   )
 }
 
