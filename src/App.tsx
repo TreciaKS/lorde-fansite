@@ -20,8 +20,8 @@ function App(): JSX.Element {
 
   return (
     <>
-      {error && <p>{<LoginError />}</p>}
-      {!error && isLoading && <p>{<AuthLoading />}</p>}
+      {error && <>{<LoginError />}</>}
+      {!error && isLoading && <>{<AuthLoading />}</>}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
