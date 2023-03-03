@@ -10,7 +10,7 @@ const LoginBtn = (): JSX.Element => {
           className="flex items-stretch"
           onClick={():Promise<void> => loginWithRedirect()}
         >
-          <li className="flex items-center gap-2 py-4 transition-colors duration-300 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-8">
+          <li className="flex items-center gap-2 py-4 transition-colors duration-300 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-6">
             <span>Sign In</span>{" "}
           </li>
         </button>
