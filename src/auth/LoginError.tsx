@@ -7,7 +7,7 @@ const LoginError = (): JSX.Element => {
         autoplay
         loop={false}
         src=" https://assets2.lottiefiles.com/packages/lf20_cdvzedxl.json"
-        style={{ height: "300px", width: "300px" }}
+        style={{ height: "100px", width: "100px" }}
       ></Player>
     </section>
   );

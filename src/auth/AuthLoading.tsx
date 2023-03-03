@@ -5,9 +5,9 @@ const AuthLoading = (): JSX.Element => {
     <section className="grid h-screen place-items-center">
       <Player
         autoplay
-        loop={false}
+        loop={true}
         src="https://assets2.lottiefiles.com/packages/lf20_rdkzbvu0.json"
-        style={{ height: "300px", width: "300px" }}
+        style={{ height: "100px", width: "100px" }}
       ></Player>
     </section>
   );
