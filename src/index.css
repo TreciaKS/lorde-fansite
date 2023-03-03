@@ -18,5 +18,9 @@ code {
 html {
   background-color: #E8E9E9;
   scroll-behavior: smooth;
-  user-select: text;
+  user-select: none;
+}
+nav li:hover{
+  font-weight: bold;
+  color: #2C99D2;
 }
