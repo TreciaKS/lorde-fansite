@@ -5,36 +5,22 @@ import About from "./pages/About"
 import Biography from "./pages/Biography";
 import Gallery from "./pages/Gallery";
 import Socials from "./pages/Socials"
-import LoginBtn from "./component/LoginBtn";
-import LogoutBtn from "./component/LogoutBtn";
-import User from "./component/User";
 import Navbar from "./component/Navbar";
 
 // routes
 import { Route, Routes } from "react-router-dom";
 
-// Auth0 hook
-import { useAuth0 } from "@auth0/auth0-react";
+// Auth0
+import { useAuth0 } from "@auth0/auth0-react"
 
 function App(): JSX.Element {
-  const { isLoading , error } = useAuth0()
-  
+  const { isLoading, error} = useAuth0()
+
   return (
     <>
+      {error && <p>Failed Authorisation!!!</p>}
+      {!error && isLoading && <p>Authenticating...</p>}
       <Navbar />
-      <div className="flex items-center justify-center text-3xl font-bold underline">
-        <h1>Auth0 Login</h1>
-        {error && <p>Failed Authorisation</p>}
-        {!error && isLoading && <p>Authenticating</p>}
-        {!error && !isLoading && (
-          <>
-            <LoginBtn />
-            <LogoutBtn />
-            <User />
-          </>
-        )}
-      </div>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
