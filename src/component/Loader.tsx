@@ -6,7 +6,7 @@ const Loader = (): JSX.Element => {
       <Player
         autoplay
         loop
-        src="https://assets6.lottiefiles.com/private_files/lf30_HGg7Oa.json"
+        src="https://assets3.lottiefiles.com/packages/lf20_mc8b7ral.json"
         style={{ height: "300px", width: "300px" }}
       ></Player>
     </section>
