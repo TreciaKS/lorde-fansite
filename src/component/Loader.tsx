@@ -1,10 +1,8 @@
 import { Player } from "@lottiefiles/react-lottie-player";
 
-type Props = {}
-
-const Loader = (props: Props) => {
+const Loader = (): JSX.Element => {
   return (
-    <section className="grid place-items-center">
+    <section className="grid h-screen place-items-center">
       <Player
         autoplay
         loop
