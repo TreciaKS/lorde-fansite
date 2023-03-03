@@ -7,7 +7,8 @@ type Props = {
     description: string;
     favoriteTrackTitle: string;
     favouriteTrackDescription: string;
-  }
+    embedSongURL: string;
+  };
 };
 
 // use both css classes and tailwind css as styles
@@ -20,6 +21,7 @@ const AboutContent = ({ abouts }: Props): ReactElement => {
         <p>{abouts.description}</p>
         <p>{abouts.favoriteTrackTitle}</p>
         <p>{abouts.favouriteTrackDescription}</p>
+        <p>{abouts.embedSongURL}</p>
       </section>
     </>
   );
