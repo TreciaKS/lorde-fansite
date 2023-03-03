@@ -8,7 +8,7 @@ const NotFound = () : JSX.Element=> {
         autoplay
         loop
         src="https://assets9.lottiefiles.com/packages/lf20_yCCORfUI6a.json"
-        style={{ height: "300px", width: "300px" }}
+        style={{ height: "200px", width: "200px" }}
       ></Player>
     </section>
   );

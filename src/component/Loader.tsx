@@ -7,7 +7,7 @@ const Loader = (): JSX.Element => {
         autoplay
         loop
         src="https://assets3.lottiefiles.com/packages/lf20_mc8b7ral.json"
-        style={{ height: "300px", width: "300px" }}
+        style={{ height: "100px", width: "100px" }}
       ></Player>
     </section>
   );
