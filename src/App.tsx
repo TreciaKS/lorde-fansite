@@ -14,6 +14,7 @@ import { Route, Routes } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react"
 import AuthLoading from "./auth/AuthLoading";
 import LoginError from "./auth/LoginError";
+import Footer from "./component/Footer"
 
 function App(): JSX.Element {
   const { isLoading, error} = useAuth0()
@@ -31,6 +32,7 @@ function App(): JSX.Element {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/socials" element={<Socials />} />
       </Routes>
+      <Footer />
     </>
   );
 }
