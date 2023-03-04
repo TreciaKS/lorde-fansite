@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
 body {
   margin: 0;
@@ -31,7 +32,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-  background-color: #252637;
+  background-color: #18152d;
   border-radius: 25px;
 }
 html::-webkit-scrollbar-track {
@@ -39,5 +40,5 @@ html::-webkit-scrollbar-track {
   margin-bottom: 5px;
 }
 html::-webkit-scrollbar-thumb:hover {
-  background-color: #61493a;
+  background-color: #89450E;
 }
