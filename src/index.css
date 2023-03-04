@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body {
   margin: 0;
@@ -23,7 +23,7 @@ html {
 }
 nav li:hover {
   font-weight: bold;
-  color: #2c99d2;
+  color: #aa6d0a;
 }
 html::-webkit-scrollbar {
   background-color: #e8e9e9;
@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-  background-color: #18152d;
+  background-color: #252637;
   border-radius: 25px;
 }
 html::-webkit-scrollbar-track {
@@ -40,5 +40,5 @@ html::-webkit-scrollbar-track {
   margin-bottom: 5px;
 }
 html::-webkit-scrollbar-thumb:hover {
-  background-color: #89450E;
+  background-color: #61493a;
 }
