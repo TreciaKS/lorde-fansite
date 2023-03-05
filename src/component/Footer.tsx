@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <>
-      <footer className="text-pure-black">
-        <div className="flex flex-row items-center justify-between w-full px-5 py-3 mx-auto bg-black">
+      <footer className="fixed bottom-0 left-0 right-0 z-30 w-full text-pure-black bg-pure-white">
+        <div className="flex flex-row items-center justify-between w-full px-5 py-1 mx-auto bg-black">
           <a
             className="flex items-center justify-center object-cover w-8 md:justify-start max-sm:mt-3"
             href="https://jemi.so/treciaks"
