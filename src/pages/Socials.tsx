@@ -3,17 +3,17 @@ import { Player } from "@lottiefiles/react-lottie-player";
 const Socials = (): JSX.Element => {
   return (
     <section className="overflow-hidden bg-pure-white">
-      <div className="flex items-center justify-center mb-16 h-fit">
+      <div className="flex items-center justify-center h-screen lg:pt-16 max-md:-mt-32 -mt-36">
         <div className="flex-1 lg:-mx-6 lg:flex lg:items-center">
-          <div className="flex w-3/5 mx-auto mb-8 lg:mx-8 lg:w-2/4">
-            <div className="object-contain w-full px-8 py-10 mx-auto border-none lg:max-w-xl bg-pure-white">
+          <div className="flex lg:mx-8 lg:w-2/4">
+            <div className="object-contain w-full px-8 mx-auto border-none lg:max-w-xl bg-pure-white">
               <Player
                 autoplay
                 loop={true}
                 src="https://assets6.lottiefiles.com/packages/lf20_eggvket4.json"
                 style={{
-                  height: "500px",
-                  width: "500px",
+                  height: "400px",
+                  width: "400px",
                   backgroundColor: "transparent",
                 }}
               ></Player>
@@ -24,8 +24,12 @@ const Socials = (): JSX.Element => {
             <h1 className="text-2xl font-bold capitalize lg:text-3xl">
               Find Lorde
             </h1>
-            <p className="mt-6 w-96">
-              If you'd like to see more of Lorde outside of music, then you better make sure you follow her. <span className="font-bold text-solar-brown">Disclaimer: She's not a social media fanatic</span>  
+            <p className="mx-auto mt-6 w-96">
+              If you'd like to see more of Lorde outside of music, then you
+              better make sure you follow her.{" "}
+              <span className="font-bold text-solar-brown">
+                Disclaimer: She's not a social media fanatic
+              </span>
             </p>
 
             <div className="mt-6 md:mt-8">
