@@ -7,7 +7,6 @@ const [biography, setBiography] = useState(BioData);
 
   return (
     <>
-    <h1>Hello</h1>
       <BiographyContent biography={biography} />
     </>
   )
