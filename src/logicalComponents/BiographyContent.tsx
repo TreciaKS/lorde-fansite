@@ -13,19 +13,9 @@ type Props = {
 };
 const BiographyContent = ({ biography }: Props): JSX.Element => {
   return (
-    <main
-      key={biography.id}
-      className="relative grid mb-12 max-lg:-mb-0 place-items-center max-sm:border-melo-sky-blue h-fit"
-    >
+    <main key={biography.id} className="grid h-screen place-items-center">
       <div className="grid grid-cols-1 gap-4 p-5 md:grid-cols-3">
-        <section className="object-contain w-full">
-          <img
-            className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96"
-            src={biography.monarchImgURL}
-            alt="hello world"
-          />
-        </section>
-        <section className="relative col-span-1 p-6 font-bold text-center rounded-lg shadow-lg text-md">
+        <section className="relative col-span-1 font-bold text-center rounded-lg shadow-lg text-md md:col-span-2">
           <h1 className="mb-4 text-lg text-black">
             <h2>{biography.title}</h2>
           </h1>
@@ -36,19 +26,31 @@ const BiographyContent = ({ biography }: Props): JSX.Element => {
           </button>
         </section>
 
-        <section className="object-contain">
+        <section className="object-contain w-full h-96">
           <img
-            className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96"
+            className="w-full h-full rounded-lg shadow-lg "
+            src={biography.monarchImgURL}
+            alt="hello world"
+          />
+        </section>
+        <section className="row-span-1 p-10 font-bold text-center rounded-lg shadow-lg text-md md:row-span-2">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cumque
+          cum dolor non inventore ipsum, vel ullam asperiores quam numquam sit
+          voluptatibus dolores nobis fugiat quae est deleniti. Impedit, iusto!
+        </section>
+        <section>
+          <img
+            className="object-cover h-full min-w-full rounded-lg shadow-lg"
             src={biography.melodramaImgURL}
             alt="Hello lorde is the "
           />
         </section>
-        <section className="relative row-span-1 p-10 font-bold text-center rounded-lg shadow-lg text-md md:row-span-1 h-fit">
+        <section className="row-span-1 p-10 font-bold text-center rounded-lg shadow-lg text-md md:row-span-1">
           <p>{biography.randomFact}</p>
           <p>{biography.lordeTradeMarks.join(", ")}</p>
         </section>
 
-        <section className="relative col-span-1 text-center border-2 h-fit text-md md:col-span-2 md:overflow-y-scroll md:max-h-80">
+        <section className="relative col-span-1 text-center border-2 text-md md:col-span-2 md:overflow-y-scroll md:max-h-80">
           <Faq />
         </section>
       </div>
