@@ -44,7 +44,7 @@ const BiographyContent = ({ biography }: Props): JSX.Element => {
             loading='lazy'
           />
         </section>
-        <section className="row-span-1 p-10 font-bold text-center rounded-lg shadow-md text-md md:row-span-1 bg-pure-black shadow-pure-black">
+        <section className="grid row-span-1 p-10 font-bold text-center rounded-lg shadow-md text-md md:row-span-1 bg-pure-black shadow-pure-black place-content-center">
           <h1 className="text-solar-sea-blue">Did You Know? 🎉</h1>
           <div className="flex justify-center mx-auto mt-2">
             <span className="inline-block w-40 h-1 rounded-full bg-solar-mustard"></span>
