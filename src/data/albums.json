@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "albumArt3D": "",
+    "albumArt3D": "./images/albums/lorde_EP.png",
     "albumTitle": "The Love Club: EP",
     "albumSubtitle": "16 year old musical prodigy, a start to something special!",
     "albumDate": 2013,
@@ -14,12 +14,12 @@
   },
   {
     "id": 2,
-    "albumArt3D": "",
+    "albumArt3D": "./images/albums/lorde_ph.png",
     "albumTitle": "Pure Heroine",
     "albumSubtitle": "The teenage years are coming to life through music",
     "albumDate": 2013,
-    "albumDescription": "https://open.spotify.com/embed/album/0rmhjUgoVa17LZuS8xWQ3v?utm_source=generator",
-    "embedSRC": "Lorde's debut studio album, Pure Heroine, was released in 2013. Scott Maclachlan, an A&R representative, produced it, and it was released by Universal, Lava, and Republic Records. It's a minimal electronica, dream pop, and electropop album with deep bass and programmed beats. It was nominated for Best Pop Vocal Album at the 56th Annual Grammy Awards and received generally positive reviews from music critics. The album was certified platinum in the United Kingdom, double platinum in Canada, and triple platinum in Australia and the United States for its influence on modern pop music.",
+    "albumDescription": "Lorde's debut studio album, Pure Heroine, was released in 2013. Scott Maclachlan, an A&R representative, produced it, and it was released by Universal, Lava, and Republic Records. It's a minimal electronica, dream pop, and electropop album with deep bass and programmed beats. It was nominated for Best Pop Vocal Album at the 56th Annual Grammy Awards and received generally positive reviews from music critics. The album was certified platinum in the United Kingdom, double platinum in Canada, and triple platinum in Australia and the United States for its influence on modern pop music.",
+    "embedSRC": "https://open.spotify.com/embed/album/0rmhjUgoVa17LZuS8xWQ3v?utm_source=generator",
     "albumGenre": ["Electro Pop", "Pop", "Art Pop"],
     "popularAlbumTrack": "Team",
     "myFavouriteTrack": "Buzzcut Season",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "albumArt3D": "",
+    "albumArt3D": "./images/albums/lorde_melodrama.webp",
     "albumTitle": "Melodrama",
     "albumSubtitle": "Young adult with a bang",
     "albumDate": 2017,
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "albumArt3D": "",
+    "albumArt3D": "./images/albums/lorde_power.jpeg",
     "albumTitle": "Solar Power",
     "albumSubtitle": "Are we all grown up now?",
     "albumDate": 2021,
