@@ -86,16 +86,17 @@ const AboutContent = ({ abouts }: Props): ReactElement => {
             </div>
           </div>
         </article>
-        <div className="grid object-contain w-full p-0 overflow-hidden border-b-4 shadow-md rounded-2xl lg:row-span-2 place-items-center border-solar-mustard shadow-solar-mustard">
+        <div className="grid object-contain w-full p-0 overflow-hidden border-b-4 shadow-md rounded-2xl lg:row-span-2 place-items-center border-solar-mustard shadow-solar-mustard max-md:border-2 max-md:shadow-none">
           <img
             src="./images/lorde_chill.png"
             alt="Lorde in black jacket, long brown hair and pinkish lipstick"
-            className="w-full"
+            className="w-full max-md:h-96 max-md:object-contain"
+            loading="lazy"
           />
         </div>
-        <article className="relative object-contain overflow-hidden border-b-4 rounded-lg shadow-md lg:col-start-2 lg:col-span-3 lg:row-start-3 shadow-melo-sky-blue max-md:h-fit max-md:mb-32">
+        <article className="relative object-contain overflow-hidden border-b-4 rounded-lg shadow-md lg:col-start-2 lg:col-span-3 lg:row-start-3 shadow-melo-sky-blue max-md:h-fit max-md:shadow-none max-md:border-none">
           <iframe
-            className="pl-10 pr-10 mx-auto mt-14"
+            className="pl-10 pr-10 mx-auto mt-14 max-md:p-0"
             style={{
               borderRadius: "12px",
               width: "100%",
