@@ -23,12 +23,18 @@ const BiographyContent = ({ biography }: Props): JSX.Element => {
           />
         </section>
 
-        <section className="relative col-span-1 font-bold text-center rounded-lg shadow-lg text-md max-lg:col-span-2 max-md:col-span-1">
-          <h1 className="mb-4 text-lg text-black">
-            <h2>{biography.title}</h2>
-          </h1>
+        <section className="relative grid col-span-1 font-bold text-center rounded-lg shadow-lg text-md max-lg:col-span-2 max-md:col-span-1 place-content-center">
+          <div className="">
+            <h1 className="mb-4 text-lg text-black">{biography.title}</h1>
 
-          <p>{biography.description}</p>
+            <div className="flex justify-center mx-auto mt-6">
+              <span className="inline-block w-40 h-1 rounded-full bg-solar-sea-blue"></span>
+              <span className="inline-block w-3 h-1 mx-1 rounded-full bg-solar-brown"></span>
+              <span className="inline-block w-1 h-1 rounded-full bg-solar-sea-blue"></span>
+            </div>
+
+            <p>{biography.description}</p>
+          </div>
         </section>
 
         <section className="object-contain">
@@ -38,9 +44,25 @@ const BiographyContent = ({ biography }: Props): JSX.Element => {
             alt="Hello lorde is the "
           />
         </section>
-        <section className="row-span-1 p-10 font-bold text-center rounded-lg shadow-lg text-md md:row-span-1">
-          <p>{biography.randomFact}</p>
-          <p>{biography.lordeTradeMarks.join(", ")}</p>
+        <section className="row-span-1 p-10 font-bold text-center rounded-lg shadow-md text-md md:row-span-1 bg-pure-black shadow-pure-black">
+          <h1 className="text-solar-sea-blue">Did You Know? 🎉</h1>
+          <div className="flex justify-center mx-auto mt-2">
+            <span className="inline-block w-40 h-1 rounded-full bg-solar-mustard"></span>
+            <span className="inline-block w-3 h-1 mx-1 rounded-full bg-solar-brown"></span>
+            <span className="inline-block w-1 h-1 rounded-full bg-solar-sea-blue"></span>
+          </div>
+          <p className="mt-3 text-sm text-pure-white">
+            {biography.randomFact} 
+          </p>
+          <h1 className="mt-7 text-solar-sea-blue">Trademarks ™</h1>
+          <div className="flex justify-center mx-auto mt-2">
+            <span className="inline-block w-40 h-1 rounded-full bg-melo-sky-blue"></span>
+            <span className="inline-block w-3 h-1 mx-1 rounded-full bg-solar-mustard"></span>
+            <span className="inline-block w-1 h-1 rounded-full bg-pure-black"></span>
+          </div>
+          <p className="mt-3 text-sm tracking-wider text-md text-pure-white">
+            {biography.lordeTradeMarks.join(" • ")}
+          </p>
         </section>
 
         <section className="relative col-span-1 text-center border-2 text-md md:col-span-2 md:overflow-y-scroll md:max-h-80">
