@@ -40,7 +40,7 @@ const AlbumsContent = ({ albums }: Props): JSX.Element => {
             <p>{album.albumDate}</p>
             <p>{album.albumDescription}</p>
           </div>
-          <div className="flex-wrap flex-1 w-1/2 px-8 py-8 border max-lg:w-full">
+          <div className="w-1/2 px-8 py-8 border max-lg:w-full">
             <p>{album.albumGenre.join(", ")}</p>
             <p>{album.popularAlbumTrack}</p>
             <p>{album.myFavouriteTrack}</p>
