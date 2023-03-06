@@ -19,7 +19,8 @@ const BiographyContent = ({ biography }: Props): JSX.Element => {
           <img
             className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96 lg:h-[720px] lg:object-top"
             src={biography.monarchImgURL}
-            alt="hello world"
+            alt="Lorde dressed in Victorian style orange dress with big emerald earrings and long brown hair."
+            loading='lazy'
           />
         </section>
 
@@ -39,7 +40,8 @@ const BiographyContent = ({ biography }: Props): JSX.Element => {
           <img
             className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96 lg:h-[720px] lg:object-top"
             src={biography.melodramaImgURL}
-            alt="Hello lorde is the "
+            alt="Lorde dressed with a black, shiny leather jacket, black trousers with her hand in her pocket, staring at the camera sideways with long blown brown hair."
+            loading='lazy'
           />
         </section>
         <section className="row-span-1 p-10 font-bold text-center rounded-lg shadow-md text-md md:row-span-1 bg-pure-black shadow-pure-black">
