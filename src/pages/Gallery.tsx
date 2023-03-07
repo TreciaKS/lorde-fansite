@@ -14,7 +14,7 @@ const Gallery = () : JSX.Element => {
           <img
             className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96 lg:h-[420px] lg:object-top transition duration-500 ease-in-out transform scale-110 translate-x-4 group-hover:-translate-x-4"
             src="./images/lorde_breezed.png"
-            alt="01"
+            alt="Lorde wearing a blue-ish jacket with a red top, looking directly at the camera with the wind blowing her hair to her right."
             loading="lazy"
           />
           <div className="absolute inset-0 transition duration-300 bg-yellow-900 opacity-0 group-hover:opacity-50"></div>
@@ -24,7 +24,7 @@ const Gallery = () : JSX.Element => {
           <img
             className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96 lg:h-[420px] lg:object-top transition duration-500 ease-in-out transform scale-110 translate-x-4 group-hover:-translate-x-4"
             src="./images/lorde_yellow_transparent.png"
-            alt="01"
+            alt="A paint brush-like overlay with yellow, green and turquoise colours as background. In the center of it, is a cartoonised drawing of Lorde."
             loading="lazy"
           />
           <div className="absolute inset-0 transition duration-300 bg-yellow-900 opacity-0 group-hover:opacity-50"></div>
@@ -34,7 +34,7 @@ const Gallery = () : JSX.Element => {
           <img
             className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96 lg:h-[420px] lg:object-top transition duration-500 ease-in-out transform scale-110 translate-x-4 group-hover:-translate-x-4"
             src="./images/lorde_dark.png"
-            alt="01"
+            alt="Lorde has straigthed brown hair to the back, with a string of looking at the camera on her right side. She's wearing a white turtleneck and black office trousers."
             loading="lazy"
           />
           <div className="absolute inset-0 transition duration-300 bg-yellow-900 opacity-0 group-hover:opacity-50"></div>
@@ -44,7 +44,7 @@ const Gallery = () : JSX.Element => {
           <img
             className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96 lg:h-[420px] lg:object-top transition duration-500 ease-in-out transform scale-110 translate-x-4 group-hover:-translate-x-4"
             src="./images/lorde_blue_img.png"
-            alt="01"
+            alt="Lorde is sitting down, her body facing her right side while staring at the camera. She has blown out brown curly hair and is wearing a blue t-shirt with black arm sleeves."
             loading="lazy"
           />
           <div className="absolute inset-0 transition duration-300 bg-yellow-900 opacity-0 group-hover:opacity-50"></div>
@@ -54,7 +54,7 @@ const Gallery = () : JSX.Element => {
           <img
             className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96 lg:h-[420px] lg:object-top transition duration-500 ease-in-out transform scale-110 translate-x-4 group-hover:-translate-x-4"
             src="./images/lorde_performaance.png"
-            alt="01"
+            alt="Lorde has her eyes closed, while she has her left hand stroking her hair. She's waering a plain greyish t-shirt."
             loading="lazy"
           />
           <div className="absolute inset-0 transition duration-300 bg-yellow-900 opacity-0 group-hover:opacity-50"></div>
@@ -64,7 +64,7 @@ const Gallery = () : JSX.Element => {
           <img
             className="relative object-cover h-full min-w-full max-md:object-top max-md:h-96 lg:h-[420px] lg:object-top transition duration-500 ease-in-out transform scale-110 translate-x-4 group-hover:-translate-x-4"
             src="./images/artist-lorde-neon-light-4zbbs66dz5lpg8p3.jpg"
-            alt="01"
+            alt="Lorde is inn a dark room full of neon lights. She is standing in the far right, has her hair in a bun while wearing a white shirt without a tie."
             loading="lazy"
           />
           <div className="absolute inset-0 transition duration-300 bg-yellow-900 opacity-0 group-hover:opacity-50"></div>
