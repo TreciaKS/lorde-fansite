@@ -106,6 +106,7 @@ const AboutContent = ({ abouts }: Props): ReactElement => {
             allowFullScreen={true}
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
+            title="No Better Spotify Song Embedding"
           ></iframe>
         </article>
       </div>
