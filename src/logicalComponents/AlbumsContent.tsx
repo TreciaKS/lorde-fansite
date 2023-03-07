@@ -12,9 +12,8 @@ type Props = {
     popularAlbumTrack: string;
     myFavouriteTrack: string;
     myFavouriteTrackDescript: string;
-  }[];
-};
-// FIXME:alt images on gallery album
+  }[]
+}
 
 const AlbumsContent = ({ albums }: Props): JSX.Element => {
   return (
@@ -22,12 +21,12 @@ const AlbumsContent = ({ albums }: Props): JSX.Element => {
       {albums.map((album) => (
         <section
           key={album.id}
-          className="flex mx-8 my-4 overflow-hidden border justify-evenly h-fit max-lg:flex-col max-sm:mx-2"
+          className="relative flex mx-8 my-4 overflow-hidden border justify-evenly h-fit max-lg:flex-col max-sm:mx-2"
         >
           <div className="w-1/2 px-8 py-8 border max-lg:w-full">
-            <div className="relative object-contain overflow-hidden border rounded-lg group ">
+            <div className="relative object-contain py-8 overflow-hidden border group">
               <img
-                className="relative object-contain min-w-full transition duration-500 ease-in-out transform scale-110 translate-x-4 shadow-md h-96 group-hover:-translate-x-4 shadow-pure-grey "
+                className="relative object-contain mx-auto transition duration-500 ease-in-out transform scale-110 translate-x-0 rounded-lg shadow-md h-96 group-hover:-translate-x-4 shadow-pure-grey"
                 src={album.albumArt3D}
                 alt="01"
                 loading="lazy"
@@ -45,9 +44,9 @@ const AlbumsContent = ({ albums }: Props): JSX.Element => {
             <p>{album.popularAlbumTrack}</p>
             <p>{album.myFavouriteTrack}</p>
             <p>{album.myFavouriteTrackDescript}</p>
-            <article className="relative object-contain overflow-hidden border-b-4 rounded-lg ">
+            <article className="relative object-contain mb-6 overflow-hidden border-4 rounded-lg ">
               <iframe
-                className="pl-10 pr-10 mx-auto mt-14 max-md:p-0"
+                className="pt-10 pl-10 pr-10 -mb-16 max-md:p-0"
                 style={{
                   borderRadius: "12px",
                   width: "100%",
@@ -57,6 +56,7 @@ const AlbumsContent = ({ albums }: Props): JSX.Element => {
                 allowFullScreen={true}
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
+                title={album.albumTitle}
               ></iframe>
             </article>
           </div>
