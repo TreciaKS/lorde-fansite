@@ -68,12 +68,7 @@ function App(): JSX.Element {
             </ProtectedRoutes>
           }
         />
-        <Route
-          path="*"
-          element={
-              <NotFound />
-          }
-        />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
