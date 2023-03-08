@@ -6,7 +6,7 @@ const AuthLoading = (): JSX.Element => {
       <Player
         autoplay
         loop={true}
-        src="https://assets2.lottiefiles.com/packages/lf20_rdkzbvu0.json"
+        src="https://assets10.lottiefiles.com/private_files/lf30_tglowewx.json"
         style={{ height: "100px", width: "100px" }}
       ></Player>
     </section>
