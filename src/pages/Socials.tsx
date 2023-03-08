@@ -27,7 +27,7 @@ const Socials = (): JSX.Element => {
             <p className="mx-auto mt-6 w-96">
               If you'd like to see more of Lorde outside of music, then you
               better make sure you follow her.{" "}
-              <span className="font-bold text-solar-brown">
+              <span className="font-extrabold text-solar-brown">
                 Disclaimer: She's not a social media fanatic
               </span>
             </p>
@@ -38,7 +38,9 @@ const Socials = (): JSX.Element => {
               <div className="-mx-1.5 mt-4 flex justify-center items-center">
                 <a
                   className="mx-1.5 transform transition-colors duration-300"
-                  href="/"
+                  href="https://twitter.com/lorde"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   <svg
                     className="w-10 h-10"
@@ -52,7 +54,9 @@ const Socials = (): JSX.Element => {
 
                 <a
                   className="mx-1.5 transform text-pure-black transition-colors duration-300"
-                  href="/home/"
+                  href="https://www.facebook.com/lordemusic/"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   <svg
                     className="w-8 h-8"
@@ -69,7 +73,9 @@ const Socials = (): JSX.Element => {
 
                 <a
                   className="mx-1.5 transform text-pure-black transition-colors duration-300"
-                  href="/home/"
+                  href="https://www.instagram.com/lorde"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   <svg
                     className="w-8 h-8"
