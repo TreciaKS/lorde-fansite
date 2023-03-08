@@ -58,7 +58,7 @@ const BiographyContent = ({ biography }: Props): JSX.Element => {
             <span className="inline-block w-3 h-1 mx-1 rounded-full bg-solar-mustard"></span>
             <span className="inline-block w-1 h-1 rounded-full bg-pure-black"></span>
           </div>
-          <p className="mt-3 text-sm tracking-wider text-md text-pure-white">
+          <p className="mt-3 text-sm tracking-wider capitalize text-md text-pure-white">
             {biography.lordeTradeMarks.join(" • ")}
           </p>
         </section>
