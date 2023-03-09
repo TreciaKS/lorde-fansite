@@ -5,13 +5,14 @@ import aboutData from "../data/about.json";
 
 
 const About = () => {
+  // eslint-disable-next-line
   const [abouts, setAbouts] = useState(aboutData);
 
   return (
     <div>
       <AboutContent abouts={abouts} />
     </div>
-  )
+  );
 }
 
 export default About

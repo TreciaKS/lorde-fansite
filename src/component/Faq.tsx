@@ -2,6 +2,8 @@ import { useState } from "react";
 import FaqData from "../data/faq.json";
 
 const Faq = () => {
+  // In order to turn off linting rule for a particular line in JSHint
+  // eslint-disable-next-line
   const [faqs, setFaqs] = useState(FaqData);
 
   return (
