@@ -17,7 +17,9 @@ code {
 html {
   background-color: #e8e9e9;
   scroll-behavior: smooth;
-  user-select: none;
+}
+::selection {
+  background-color: #252637;
 }
 nav li:hover {
   font-weight: bold;
