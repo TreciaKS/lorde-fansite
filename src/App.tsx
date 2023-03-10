@@ -25,52 +25,56 @@ function App(): JSX.Element {
     <>
       {error && <>{<LoginError />}</>}
       {!error && isLoading && <>{<AuthLoading />}</>}
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route
-          path="/about"
-          element={
-            <ProtectedRoutes>
-              <About />
-            </ProtectedRoutes>
-          }
-        />
-        <Route
-          path="/biography"
-          element={
-            <ProtectedRoutes>
-              <Biography />
-            </ProtectedRoutes>
-          }
-        />
-        <Route
-          path="/albums"
-          element={
-            <ProtectedRoutes>
-              <Albums />
-            </ProtectedRoutes>
-          }
-        />
-        <Route
-          path="/gallery"
-          element={
-            <ProtectedRoutes>
-              <Gallery />
-            </ProtectedRoutes>
-          }
-        />
-        <Route
-          path="/socials"
-          element={
-            <ProtectedRoutes>
-              <Socials />
-            </ProtectedRoutes>
-          }
-        />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      <Footer />
+      {!isLoading && (
+        <>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route
+              path="/about"
+              element={
+                <ProtectedRoutes>
+                  <About />
+                </ProtectedRoutes>
+              }
+            />
+            <Route
+              path="/biography"
+              element={
+                <ProtectedRoutes>
+                  <Biography />
+                </ProtectedRoutes>
+              }
+            />
+            <Route
+              path="/albums"
+              element={
+                <ProtectedRoutes>
+                  <Albums />
+                </ProtectedRoutes>
+              }
+            />
+            <Route
+              path="/gallery"
+              element={
+                <ProtectedRoutes>
+                  <Gallery />
+                </ProtectedRoutes>
+              }
+            />
+            <Route
+              path="/socials"
+              element={
+                <ProtectedRoutes>
+                  <Socials />
+                </ProtectedRoutes>
+              }
+            />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Footer />
+        </>
+      )}
     </>
   );
 }
