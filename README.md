@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Lorde Fansite
+The purpose of this proejct was to put my grid and flex layout, web responsiveness, UI/UX, TypeScript skills from theory into practise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+And the perfect way I knew how was to build a fun project that expresses a love for thee famous singer, Lorde. 
+I also aimed to practise how to integrate third party authentication tools like Auth0 and how to establish protected routes, conditionally render based on authenticated user.
 
-## Available Scripts
+But that has then been removed as it is redundant to require login for a static project as this.
 
+Regardless, the lessons have been learned. <a href="https://lorde-fansite.vercel.app/">Check it out</a>
+
+## Landing Page
+<img width="1706" height="948" alt="Screenshot 2025-10-19 at 16 33 09" src="https://github.com/user-attachments/assets/6dbc63e1-efb4-4877-a9f4-2c4f8a3236c0" />
+
+## About Section showing off my grid/flex layout. All responsive
+<img width="1706" height="948" alt="Screenshot 2025-10-19 at 16 32 52" src="https://github.com/user-attachments/assets/b72e526a-d127-427f-9824-12f1c227cab7" />
+
+### Stack Used
+- React 18.2.0
+- TypeScript 4.9.5
+- TailwindCSS 3.2.7
+- Lottiefiles 3.5.2
+- Auth0 2.0.1 (removed)
+
+### To run the project
 In the project directory, you can run:
 
-### `npm start`
+- npm start
+  - Opens server page to view it in the browser.
+  - The page will reload if you make edits.
+  - You will also see any lint errors in the console.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- npm run build
+  - Builds the app for production to the `build` folder.
