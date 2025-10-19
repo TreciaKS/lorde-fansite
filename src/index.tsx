@@ -8,11 +8,11 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
 // Auth0
-import { Auth0Provider } from "@auth0/auth0-react";
+// import { Auth0Provider } from "@auth0/auth0-react";
 
 // this value will never be null or undefined. non-null assertions !
-const domain = process.env.REACT_APP_AUTH0_DOMAIN!;
-const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID!;
+// const domain = process.env.REACT_APP_AUTH0_DOMAIN!;
+// const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID!;
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -20,13 +20,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <Auth0Provider
-        domain={domain}
-        clientId={clientId}
-        authorizationParams={{ redirect_uri: window.location.origin }}
-      >
-        <App />
-      </Auth0Provider>
+      <App />
     </React.StrictMode>
   </BrowserRouter>
 );
