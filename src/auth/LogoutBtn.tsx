@@ -8,7 +8,7 @@ const LogoutBtn = (): JSX.Element => {
       {isAuthenticated && (
         <button
           className="flex items-stretch"
-          onClick={(): Promise<void> => logout()}
+          onClick={() => logout()}
         >
           <li className="flex items-center gap-2 py-4 transition-colors duration-300 focus:bg-emerald-50 focus:outline-none focus-visible:outline-none lg:px-6 lg:pt-8 text-melo-rainy-blue">
             <span>Sign Out</span>
