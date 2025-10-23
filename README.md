@@ -1,5 +1,5 @@
 # Lorde Fansite
-The purpose of this proejct was to put my grid and flex layout, web responsiveness, UI/UX, TypeScript skills from theory into practise
+The purpose of this project was to put my grid and flex layout, web responsiveness, UI/UX, TypeScript skills from theory into practise
 
 And the perfect way I knew how was to build a fun project that expresses a love for thee famous singer, Lorde. 
 I also aimed to practise how to integrate third party authentication tools like Auth0 and how to establish protected routes, conditionally render based on authenticated user.
